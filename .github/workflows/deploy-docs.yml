@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: action: checkout@v3
+        uses: action/checkout@v3
       
       - name: Setup Node.js
         uses: action/setup-node@v3
